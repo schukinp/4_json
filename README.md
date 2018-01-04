@@ -5,11 +5,11 @@ Script prints to console JSON file data in readable format
 # Quickstart
 
 * Put your JSON file into script folder
-* Run pprint_json.py --file `filename.json`
+* Run pprint_json.py <filename.json>
 
 Example of script launch on Linux, Python 3.5:
 ```
-$ python pprint_json.py --file alco_shops.json
+$ python pprint_json.py alco_shops.json
 {
     "geometry": {
         "coordinates": [

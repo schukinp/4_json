@@ -15,5 +15,5 @@ if __name__ == '__main__':
     try:
         filepath = sys.argv[1]
         print(pretty_print_json(load_data(filepath)))
-    except (FileNotFoundError, ValueError):
+    except (FileNotFoundError, ValueError, IndexError):
         print('Cannot read file')
